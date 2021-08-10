@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "冒泡排序", "冒泡排序\冒泡排序.vcxproj", "{08D7CD8A-379F-4CD3-AA0B-E9C84AEE17BA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "简单", "简单\简单.vcxproj", "{40EC00A6-8B57-4D95-996E-8B819AFB8190}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{08D7CD8A-379F-4CD3-AA0B-E9C84AEE17BA}.Release|x64.Build.0 = Release|x64
 		{08D7CD8A-379F-4CD3-AA0B-E9C84AEE17BA}.Release|x86.ActiveCfg = Release|Win32
 		{08D7CD8A-379F-4CD3-AA0B-E9C84AEE17BA}.Release|x86.Build.0 = Release|Win32
+		{40EC00A6-8B57-4D95-996E-8B819AFB8190}.Debug|x64.ActiveCfg = Debug|x64
+		{40EC00A6-8B57-4D95-996E-8B819AFB8190}.Debug|x64.Build.0 = Debug|x64
+		{40EC00A6-8B57-4D95-996E-8B819AFB8190}.Debug|x86.ActiveCfg = Debug|Win32
+		{40EC00A6-8B57-4D95-996E-8B819AFB8190}.Debug|x86.Build.0 = Debug|Win32
+		{40EC00A6-8B57-4D95-996E-8B819AFB8190}.Release|x64.ActiveCfg = Release|x64
+		{40EC00A6-8B57-4D95-996E-8B819AFB8190}.Release|x64.Build.0 = Release|x64
+		{40EC00A6-8B57-4D95-996E-8B819AFB8190}.Release|x86.ActiveCfg = Release|Win32
+		{40EC00A6-8B57-4D95-996E-8B819AFB8190}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
