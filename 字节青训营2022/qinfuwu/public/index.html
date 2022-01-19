@@ -35,7 +35,6 @@
             </div>
         </div>
 
-
         <div class="todo-wrapper" style="flex: 1">
             <form @keydown.enter.prevent="" style="display: flex">
 
@@ -47,7 +46,7 @@
             </form>
 
 
-            <div hidden :hidden="loading">
+            <div :hidden="loading">
                 <div v-if="pending.length > 0">
                     <p class="status busy">您拥有 {{ pending.length }} 条待办事项</p>
                     <transition-group name="todo-item" tag="ul" class="todo-list">
@@ -89,22 +88,7 @@
             </div>
         </div>
 
-        <div class="readme" style="flex: 1">
-            <h2 class="title">使用说明</h2>
-            <div>
-                轻服务云工程示例项目：
-                <li>操作中间区域管理你的待办事项。</li>
-                <li>左侧可以查看具体发生的请求。</li>
-                <li>项目包含前端界面，后端接口，数据库操作。</li>
-                <br/>
-                创建自己的云工程：<a href="https://qingfuwu.cn/docs/nodejs/cloud-project/quickstart.html" target="_blank">云工程入门</a>
-            </div>
-        </div>
-
     </div>
-    <footer>
-        <a href="https://qingfuwu.cn/" target="_blank">立即试用轻服务</a>
-    </footer>
 </div>
 </body>
 <script>
